@@ -9,9 +9,7 @@ using namespace std;
 int main()
 {
 	setlocale(0, "");  int N;
-
 List:
-
 	do 
 	{
 		cout << endl;
@@ -28,7 +26,6 @@ List:
 		if (N == 3) goto Three;       if (N == 4) goto Four;
 	} 
 	        while (N != 5);               goto End;
-
 One:
 	if (N == 1)
 	{
